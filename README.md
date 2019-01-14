@@ -10,13 +10,13 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
     ![image of concert-this in bash](/images/concert-this.png)
 
 - movie-this `<movie name here>`
-    - Function takes the user input (command) and the user query (song), and returns title of the movie, year the movie came out, IMDB Rating of the movie , Rotten Tomatoes Rating of the movie, country where the movie was produced, language of the movie, plot of the movie, and actors in the movie.
+    - Function takes the user input (command) and the user query (movie), and returns title of the movie, year the movie came out, IMDB Rating of the movie, Rotten Tomatoes Rating of the movie, country where the movie was produced, language of the movie, plot of the movie, and actors in the movie.
     - If no movie is entered, it will suggest that you go watch Mr. Nobody on Netflix
     ![image of movie-this in bash](/images/movie-this.png)
  
 
 - spotify-this-song `<song name here>`
-    - Function takes the the user input (command) and the user query (song), and returns the artist, full track name, a link to the song and the album.
+    - Function takes the the user input (command) and the user query (song), and returns the artist, full track name, a link to the song, and the album name.
     - If no song is entered, it will return the specs for the song "Scared of the Dark"
     ![image of spotify-this-song in bash](/images/spotify-this-song.png)
 
@@ -29,4 +29,6 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 - OMBD
 - Spotify
 
+### Important Note
+- You will need your own .env file with API keys for this to run in your bash/ terminal
 
