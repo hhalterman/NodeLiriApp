@@ -5,11 +5,21 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ### What Each Command Should Do
 - concert-this `<artist/band name here>`
+    - Function takes the userInput (command) and the userQuery(artist), and returns the next venue name, venue location and date of the event 
+    ![image of concert-this in bash](/images/concert-this.png)
+
 - movie-this `<movie name here>`
+    - Function takes the userInput (command) and the userQuery(song), and returns title of the movie, year the movie came out, IMDB Rating of the movie , Rotten Tomatoes Rating of the movie, country where the movie was produced, language of the movie, plot of the movie, and actors in the movie.
+    ![image of movie-this in bash](/images/movie-this.png)
+ 
+
 - spotify-this-song `<song name here>`
+    - Function takes the userInput (command) and the userQuery(song), and returns the artist, full track name, a link to the song and the album.
+    ![image of spotify-this-song in bash](/images/spotify-this-song.png)
+
 - do-what-it-says 
     - LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-
+    ![image of do-what-it-says in bash](/images/do-what-it-says.png)
 
 ### APIs Utilized
 - Bands In Town
