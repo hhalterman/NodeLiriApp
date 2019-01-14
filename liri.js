@@ -74,7 +74,7 @@ function movieThis(){
 function spotifyThis(){
     var data;
     if (input === ""){
-        input = "Free Bird";
+        input = "Scared of the Dark";
         songSearch();
     } else {
         songSearch();
